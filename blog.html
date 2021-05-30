@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <title>NEOMO-TEMPLATE</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="/css/neomo.css" />
+    <style>
+      body {
+        width: 90vw;
+      }
+      .header-nav {
+        margin: 1rem;
+        justify-content: flex-end;
+      }
+      .header-dropdown {
+        padding: auto 0;
+      }
+      .nav-link {
+        padding: 1rem;
+        margin: 0 0.4rem;
+      }
+      a {
+        margin: auto 0;
+      }
+    </style>
+  </head>
+
+  <body class="gray">
+    <!-- Start Header -->
+
+    <ul class="nav header-nav">
+      <a class="nav-link"> Home </a>
+      <a class="nav-link"> Examples </a>
+      <a class="nav-link"> Features </a>
+      <a class="nav-link"> Team </a>
+      <a class="nav-link"> Archives </a>
+      <a class="nav-link"> Help </a>
+      <div class="dropdown">
+        <button class="dropdown-button outset-gray header-dropdown">
+          Account
+          <i class="fa fa-caret-down"></i>
+        </button>
+
+        <div class="dropdown-content text-center">
+          <a> Dashboard </a>
+          <a> Profile </a>
+          <a> Settings </a>
+          <hr class="navbar-divider" />
+          <a> Logout </a>
+        </div>
+      </div>
+    </ul>
+    <!-- End Header -->
+
+    <script async type="text/javascript" src="/js/neomo.js"></script>
+  </body>
+</html>
